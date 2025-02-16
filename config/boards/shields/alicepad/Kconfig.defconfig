@@ -1,0 +1,5 @@
+if SHIELD_ALICEPAD
+
+config ZMK_KEYBOARD_NAME
+    default "alicepad"
+endif

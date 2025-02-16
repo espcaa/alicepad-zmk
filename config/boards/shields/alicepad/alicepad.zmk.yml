@@ -1,0 +1,9 @@
+file_format: "1"
+id: alicepad
+name: AlicePad
+type: shield
+url: https://github.com/spectralo/alicepad-zmk
+requires: [seeeduino_xiao_rp2040]
+features:
+  - keys
+  - rgb
