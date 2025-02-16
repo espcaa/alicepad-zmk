@@ -4,7 +4,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;  // Changed from physical-layout
+        zmk,physical-layout = &physical_layout0;
     };
 
     kscan0: kscan0 {
@@ -35,4 +35,8 @@
             RC(2,0) RC(2,1) RC(2,2)
         >;
     };
+};
+
+&physical_layout0 {
+        transform = <&keymap_transform0>;
 };
