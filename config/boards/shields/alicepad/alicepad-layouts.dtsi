@@ -3,21 +3,4 @@
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
     };
-    macropad_physical_layout: macropad_physical_layout {
-        compatible = "zmk,physical-layout";
-        display-name = "AlicePad";
-        transform = <&default_transform>;
-        kscan = <&kscan0>;
-        keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100    0    0       0     0     0>
-            , <&key_physical_attrs 100 100  100    0       0     0     0>
-            , <&key_physical_attrs 100 100  200    0       0     0     0>
-            , <&key_physical_attrs 100 100    0  100       0     0     0>
-            , <&key_physical_attrs 100 100  100  100       0     0     0>
-            , <&key_physical_attrs 100 100  200  100       0     0     0>
-            , <&key_physical_attrs 100 100    0  200       0     0     0>
-            , <&key_physical_attrs 100 100  100  200       0     0     0>
-            , <&key_physical_attrs 100 100  200  200       0     0     0>
-            ;
-    };
 };
