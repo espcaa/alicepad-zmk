@@ -38,5 +38,6 @@
 };
 
 &physical_layout0 {
-        transform = <&matrix_transform0>;
+    kscan = <&kscan0>;
+    transform = <&default_transform>;
 };
